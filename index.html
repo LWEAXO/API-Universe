@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Universe | Tüm API'lar Tek Platformda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="" class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>API Universe</span>
+                </a>
+
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+<section class="hero">
+    <h1>Binlerce API Tek Platformda</h1>
+    <p id="api-counter">Ücretsiz ve premium API'ları keşfedin, projelerinizi bir üst seviyeye taşıyın. Hemen aramaya başlayın!</p>
+    
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Aradığınız API'ı yazın...">
+        <button class="search-btn"><i class="fas fa-search"></i> Ara</button>
+    </div>
+</section>
+
+        <section class="categories">
+            <button class="category-btn active">Tümü</button>
+            <button class="category-btn"><i class="fas fa-lock-open"></i> Ücretsiz</button>
+            <button class="category-btn"><i class="fas fa-crown"></i> Premium</button>
+            <button class="category-btn"><i class="fas fa-hashtag"></i> Sosyal Medya</button>
+            <button class="category-btn"><i class="fas fa-chart-line"></i> Finans</button>
+            <button class="category-btn"><i class="fas fa-map-marked-alt"></i> Haritalar</button>
+            <button class="category-btn"><i class="fas fa-robot"></i> Yapay Zeka</button>
+            <button class="category-btn"><i class="fas fa-shopping-cart"></i> E-Ticaret</button>
+        </section>
+
+        <section class="api-grid" id="apiGrid">
+        </section>
+        <div id="loading" class="loading-spinner" style="display: none;">
+            <div class="spinner"></div>
+            <p>Daha fazla API yükleniyor...</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>API Universe</h3>
+                    <p>Geliştiriciler için en kapsamlı API kütüphanesi. Projeleriniz için ihtiyacınız olan tüm API'lar burada.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/LWEAXO"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/lweaxo"><i class="fab fa-instagram"></i></a>
+                        <a href="https://discord.com/users/1015356240492245054"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Kaynaklar</h3>
+                    <ul>
+                        <li><a href="https://discord.com/users/1015356240492245054"><i class="fas fa-plus-circle"></i> API Ekle</a></li>
+                        <li><a href="https://github.com/LWEAXO"><i class="fas fa-question-circle"></i> SSS</a></li>
+                        <li><a href="https://github.com/LWEAXO"><i class="fas fa-life-ring"></i> Yardım Merkezi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>İletişim</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> github.com/LWEAXO</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Ankara, Türkiye</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 - 2026 API Universe. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+<!-- lweaxo -->
+    <script src="script.js"></script>
+</body>
+</html>
